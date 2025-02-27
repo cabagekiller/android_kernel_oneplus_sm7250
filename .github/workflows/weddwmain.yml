@@ -115,7 +115,7 @@ jobs:
         cp "$WORKSPACE_FOLDER/susfs4ksu/kernel_patches/include/linux/susfs.h" ./include/linux/
         cp "$WORKSPACE_FOLDER/susfs4ksu/kernel_patches/include/linux/susfs_def.h" ./include/linux/
         cp "$WORKSPACE_FOLDER/susfs4ksu/kernel_patches/50_add_susfs_in_kernel-4.19.patch" ./common
-        cp "$WORKSPACE_FOLDER/susfs4ksu/new_hooks.patch" ./common
+        cp "$WORKSPACE_FOLDER/kernel_patches/new_hooks.patch" ./common
         # Setup KernelSU-Next
         echo "--- Setting up KernelSU-Next ---"
         rm -rf KernelSU-Next
